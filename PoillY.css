@@ -1,0 +1,151 @@
+#K {
+	margin: 10px;
+	background: black;
+	height: 40px;
+	line-height: 40px;
+}
+
+#K ul {
+	padding-left: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+#K ul li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 10px;
+	color: white;
+	letter-spacing: 5px;
+}
+
+#K ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+#K ul li a:hover {
+	background: #b11a3a;
+}
+
+.img {
+	padding: 40px;
+}
+
+#footer {
+	padding-top: 50px;
+	height: 80px;
+	color: black;
+	text-align: center;
+}
+
+#footer ul {
+	list-style: none;
+}
+
+table.F {
+	border-collapse: collapse;
+	text-align: center;
+	line-height: 1.5;
+	border-left: 3px solid #b11a3a;
+	margin: 20px 10px;
+}
+
+table.F th {
+	width: 120px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #b11a3a;
+}
+
+#P {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	width: 100%;
+}
+
+#P thead {
+	text-align: center;
+}
+
+#P thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #b11a3a;
+	border-bottom: 3px solid #b11a3a;
+}
+
+#P td {
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+.button {
+	width: 120px;
+	background-color: #b11a3a;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 0;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 4px;
+	cursor: pointer;
+}
+
+.button:hover {
+	border: 3px solid #b11a3a;
+	background-color: white;
+	font-weight: bold;
+	color: #b11a3a;
+}
+
+.form {
+	width: 100%;
+	top: 58%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slidd {
+	box-sizing: border-box;
+}
+
+#slidd .slider {
+	width: 95%;
+	margin: 100px auto;
+}
+
+#slidd .slick-slide {
+	margin: 0px 55px;
+}
+
+#slidd .slick-slide img {
+	width: 140%;
+}
+
+#slidd .slick-prev:before, #slidd .slick-next:before {
+	color: black;
+}
+
+#slidd .slick-slide {
+	transition: all ease-in-out .3s;
+	opacity: .2;
+}
+
+#slidd .slick-active {
+	opacity: .7;
+}
+
+#slidd .slick-current {
+	opacity: 1;
+}
